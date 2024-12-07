@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pontuação - ICSA</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Instituto de Ciências Sociais e da Vida - ICSA</h1>
+            <h2>Simulador de Pontuação de Titular</h2>
+        </header>
+        <main id="mainContent">
+            <div id="welcomeScreen" class="welcome-screen">
+                <button id="enterButton" class="primary-button">Entrar</button>
+            </div>
+            <div id="menuScreen" class="menu-screen hidden">
+                <div class="button-grid">
+                    <button class="menu-button" data-section="ensino">Ensino</button>
+                    <button class="menu-button" data-section="pesquisa">Pesquisa</button>
+                    <button class="menu-button" data-section="extensao">Extensão</button>
+                    <button class="menu-button" data-section="gestao">Gestão</button>
+                </div>
+                <button id="backButton" class="secondary-button hidden">Voltar</button>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
